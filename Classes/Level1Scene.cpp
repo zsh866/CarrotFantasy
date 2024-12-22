@@ -47,7 +47,7 @@ bool Level1::init()
 
 
     //这里可以改成backgroundLayer，因为不需要修改
-    auto background = TMXTiledMap::create("/Scene/level1/level1.tmx");
+    auto background = Sprite::create("Scene/level1/Level_1_1_bg.png");
     background->setAnchorPoint(Vec2(0.5, 0.5));
     background->setPosition(visibleSize / 2);
     this->addChild(background, 0);

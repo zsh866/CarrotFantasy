@@ -156,6 +156,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\EntityLayer.cpp" />
     <ClCompile Include="..\Classes\GameData.cpp" />
     <ClCompile Include="..\Classes\Level1Scene.cpp" />
+    <ClCompile Include="..\Classes\Level2Scene.cpp" />
     <ClCompile Include="..\Classes\Monster.cpp" />
     <ClCompile Include="..\Classes\MonsterBase.cpp" />
     <ClCompile Include="..\Classes\Obstacle.cpp" />
@@ -163,6 +164,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\TowerProperty.cpp" />
     <ClCompile Include="..\Classes\UiLayer.cpp" />
     <ClCompile Include="AudioManager.hpp" />
+    <ClCompile Include="BaseGameScene.cpp" />
     <ClCompile Include="Config.cpp" />
     <ClCompile Include="GameDataManager.cpp" />
     <ClCompile Include="GameStart.cpp" />
@@ -178,6 +180,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\Classes\EntityLayer.h" />
     <ClInclude Include="..\Classes\GameData.h" />
     <ClInclude Include="..\Classes\Level1Scene.h" />
+    <ClInclude Include="..\Classes\Level2Scene.h" />
     <ClInclude Include="..\Classes\Macro.h" />
     <ClInclude Include="..\Classes\Monster.h" />
     <ClInclude Include="..\Classes\MonsterBase.h" />
@@ -185,6 +188,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\Classes\Tower.h" />
     <ClInclude Include="..\Classes\TowerProperty.h" />
     <ClInclude Include="..\Classes\UiLayer.h" />
+    <ClInclude Include="BaseGameScene.h" />
     <ClInclude Include="Chinese.hpp" />
     <ClInclude Include="Config.h" />
     <ClInclude Include="GameDataManager.h" />

@@ -31,6 +31,10 @@ public:
 
 	void selectGame(Ref* sender);
 
+	void win(Ref* sender);
+
+	void lose(Ref* sender);
+
 	CREATE_FUNC(UiLayer);
 
 	cocos2d::ui::Button* getPauseButton() const { return pauseButton; }

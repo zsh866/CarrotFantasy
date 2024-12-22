@@ -20,7 +20,7 @@ bool EntityLayer::init()
 
 
 
-	start = Sprite::create("/res/Item/start.png");//路径起点的棋子图标
+	start = Sprite::create("res/Item/startPoint.png");//路径起点的棋子图标
 	start->setPosition(GameData::getInstance()->start.x * 80 + 40, GameData::getInstance()->start.y * 80 + 40);
 	this->addChild(start, 1);
 
@@ -109,6 +109,11 @@ bool EntityLayer::init()
 		auto locationY = event->getCursorY();
 		Vec2 location(locationX, locationY);//鼠标点击位置
 
+		//最上面1行是菜单部分，在entitylayer不应该有响应
+		if (locationY > 560)
+		{
+			return;
+		}
 
 		log("%f %f", locationX, locationY);
 
@@ -294,14 +299,26 @@ void EntityLayer::update(float dt)//帧更新
 	std::vector<Obstacle*>destroyedObstacles;
 
 	//游戏胜利和失败的逻辑还没有完成
-	if (GameData::getInstance()->wave == 5 && monsters.empty())
+	if (GameData::getInstance()->wave > GameData::getInstance()->allWaves && monsters.empty())
 	{
 		//游戏胜利
+		EventCustom event1("win");
+		_eventDispatcher->dispatchEvent(&event1);
+
+		EventCustom event2("togglePause");
+		GameData::getInstance()->ispaused = true;
+		_eventDispatcher->dispatchEvent(&event2);
 	}
 
 	if (carrot->healthpoint <= 0)
 	{
 		//游戏失败
+		EventCustom event1("lose");
+		_eventDispatcher->dispatchEvent(&event1);
+
+		EventCustom event2("togglePause");
+		GameData::getInstance()->ispaused = true;
+		_eventDispatcher->dispatchEvent(&event2);
 	}
 
 	for (auto& monster : monsters)
@@ -438,7 +455,7 @@ void EntityLayer::update(float dt)//帧更新
 		++it;
 	}
 
-	//统一清理死亡的 Monster和所有相关子弹
+	//统一清理死亡的 monster, obstacle和所有相关子弹
 	for (auto& target : deadMonsters) {
 		for (auto it = bullets.begin(); it != bullets.end();) {
 			if ((*it)->targetMonster == target) {
@@ -474,6 +491,10 @@ void EntityLayer::update(float dt)//帧更新
 			}
 		}
 
+		Vec2 pos = target->getPosition();
+		int girdX = pos.x / 80;
+		int girdY = pos.y / 80;
+		GameData::getInstance()->map[girdX][girdY] = EMPTY;
 		target->dead();
 		obstacles.erase(std::find(obstacles.begin(), obstacles.end(), target));
 	}
@@ -493,7 +514,7 @@ void EntityLayer::single_wave_update_monster_timer(int wave)
 
 		monsters.push_back(monster);
 		this->addChild(monster, 2);
-		}, 1.0f, "single_wave_update_monster_key");
+		}, 2.0f, "single_wave_update_monster_key");
 }
 
 

@@ -48,6 +48,71 @@ bool UiLayer::init()
 	menuButton->addClickEventListener(CC_CALLBACK_1(UiLayer::menu, this));
 	this->addChild(menuButton, 2);
 
+
+	auto wineventListener = EventListenerCustom::create("win", [=](EventCustom* event) {
+		auto board = Sprite::create("res/ui/win.png");
+		board->setPosition(480, 320);
+		this->addChild(board, 10);
+		
+		//重新开始
+		auto restartGameButton = ui::Button::create("res/ui/restart_normal.png", "res/ui/restart_selected.png");
+		restartGameButton->setPosition(Vec2(400, 300));
+		restartGameButton->setScale(0.6);
+		restartGameButton->setName("restartGameButton");
+
+		restartGameButton->addClickEventListener(CC_CALLBACK_1(UiLayer::restartGame, this));
+
+		this->addChild(restartGameButton, 11);
+
+
+		//选择关卡
+		auto selectLevelButton = ui::Button::create("res/ui/return_normal.png", "res/ui/return_selected.png");
+		selectLevelButton->setPosition(Vec2(550, 300));
+		selectLevelButton->setScale(0.6);
+		selectLevelButton->setName("selectLevelButton");
+
+		//连接到外部选关
+		selectLevelButton->addClickEventListener(CC_CALLBACK_1(UiLayer::selectGame, this));
+
+		this->addChild(selectLevelButton, 11);
+
+
+		});
+	_eventDispatcher->addEventListenerWithSceneGraphPriority(wineventListener, this);
+
+	auto loseeventListener = EventListenerCustom::create("lose", [=](EventCustom* event) {
+		auto board = Sprite::create("res/ui/lose.png");
+		board->setPosition(480, 320);
+		this->addChild(board, 10);
+
+
+		//重新开始
+		auto restartGameButton = ui::Button::create("res/ui/restart_normal.png", "res/ui/restart_selected.png");
+		restartGameButton->setPosition(Vec2(400, 300));
+		restartGameButton->setScale(0.6);
+		restartGameButton->setName("restartGameButton");
+
+		restartGameButton->addClickEventListener(CC_CALLBACK_1(UiLayer::restartGame, this));
+
+		this->addChild(restartGameButton, 11);
+
+
+
+		//选择关卡
+		auto selectLevelButton = ui::Button::create("res/ui/return_normal.png", "res/ui/return_selected.png");
+		selectLevelButton->setPosition(Vec2(550, 300));
+		selectLevelButton->setScale(0.6);
+		selectLevelButton->setName("selectLevelButton");
+
+		//连接到外部选关
+		selectLevelButton->addClickEventListener(CC_CALLBACK_1(UiLayer::selectGame, this));
+
+		this->addChild(selectLevelButton, 11);
+
+
+		});
+	_eventDispatcher->addEventListenerWithSceneGraphPriority(loseeventListener, this);
+
 	return true;
 }
 
@@ -172,8 +237,18 @@ void UiLayer::restartGame(Ref* sender)
 	EventCustom event("clearVector");
 	_eventDispatcher->dispatchEvent(&event);
 
+	Scene* newScene;
+	switch (GameData::getInstance()->level)
+	{
+	case 1:
+		newScene = Level1::createScene();
+		break;
+	case 2:
+		newScene = Level2::createScene();
+		break;
+	}
 
-	auto newScene = Level1::createScene();
+	
 	Director::getInstance()->replaceScene(newScene);
 }
 
@@ -181,4 +256,14 @@ void UiLayer::restartGame(Ref* sender)
 void UiLayer::selectGame(Ref* sender)
 {
 	Director::getInstance()->replaceScene(MapSelectUI::createScene("res/SkylineScene.csb"));
+}
+
+void UiLayer::win(Ref* sender)
+{
+
+}
+
+void UiLayer::lose(Ref* sender)
+{
+
 }

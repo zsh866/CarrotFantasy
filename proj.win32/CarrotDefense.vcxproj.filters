@@ -87,6 +87,12 @@
     <ClCompile Include="..\Classes\UiLayer.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="BaseGameScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level2Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -157,6 +163,12 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\UiLayer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGameScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level2Scene.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

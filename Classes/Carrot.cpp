@@ -50,7 +50,7 @@ void Carrot::updateAnim() {
 	// ÇÐ»»Í¼Æ¬ÎÆÀí
 	this->setTexture(filename);
 
-	this->setPosition(Vec2(60 + GameData::getInstance()->destination.x * 80 + 40, 40 + GameData::getInstance()->destination.y * 80 + 40));
+	this->setPosition(Vec2(GameData::getInstance()->destination.x * 80 + 40, GameData::getInstance()->destination.y * 80 + 40));
 
 }
 

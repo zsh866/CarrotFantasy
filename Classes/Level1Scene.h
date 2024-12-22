@@ -5,6 +5,7 @@
 #include "UiLayer.h"
 #include "EntityLayer.h"
 #include "Macro.h"
+#include "BaseGameScene.h"
 
 class Level1 : public cocos2d::Scene
 {

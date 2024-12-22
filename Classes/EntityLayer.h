@@ -46,10 +46,6 @@ public:
 	void popBuildMenu(Vec2 position, int gridX, int gridY);  //弹出建造按钮
 
 	void popUpgardeAndSellMenu(Vec2 position, int gridX, int gridY, Tower* tower);  //弹出升级和出售按钮
-
-	void pauseGame();
-
-	void resumeGame();
 };
 
 #endif

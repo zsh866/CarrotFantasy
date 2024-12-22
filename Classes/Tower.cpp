@@ -95,7 +95,15 @@ Bullet* Tower::attack()
 	this->runAction(Sequence::create(rotate, delay, nullptr));
 
 	//需要补充发射动画
-	std::string bulletTexture = "/res/Item/" + towerproperty.type + "/" + towerproperty.type + "_bullet_level" + std::to_string(level) + "_1.png";
+	std::string bulletTexture;
+	if (level <= 2)
+	{
+		bulletTexture = "/res/Item/" + towerproperty.type + "/" + towerproperty.type + "_bullet_level" + std::to_string(level) + "_1.png";
+	}
+	else
+	{
+		bulletTexture = "/res/Item/" + towerproperty.type + "/" + towerproperty.type + "_bullet_level" + std::to_string(level - 1) + "_1.png";
+	}
 	CCLOG("Bullet Texture Path: %s", bulletTexture.c_str());
 	auto bullet = Bullet::create(bulletTexture, this, targetMonster, targetObstacle);
 

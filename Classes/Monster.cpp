@@ -86,7 +86,7 @@ void Monster::updateHealthBar() {
 }
 
 void Monster::isDead() {
-    if (this->getPosition() < Vec2(60 + GameData::getInstance()->destination.x * 80 + 40, 40 + GameData::getInstance()->destination.y * 80 + 40)) {
+    if (this->getPosition() < Vec2(GameData::getInstance()->destination.x * 80 + 40, GameData::getInstance()->destination.y * 80 + 40)) {
         EventCustom event("moneyChanged");
         event.setUserData((void*)rewardmoney);
         _eventDispatcher->dispatchEvent(&event);
