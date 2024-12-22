@@ -33,9 +33,6 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="GameStart.cpp">
       <Filter>src\Scene</Filter>
     </ClCompile>
@@ -57,11 +54,38 @@
     <ClCompile Include="AudioManager.hpp">
       <Filter>src\Global</Filter>
     </ClCompile>
-    <ClCompile Include="LevelOne.cpp">
-      <Filter>src\Scene\GameScene</Filter>
+    <ClCompile Include="..\Classes\Bullet.cpp">
+      <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="MonsterBase.cpp">
-      <Filter>src\Monster</Filter>
+    <ClCompile Include="..\Classes\Carrot.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EntityLayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level1Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Monster.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MonsterBase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Obstacle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tower.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerProperty.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiLayer.cpp">
+      <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -69,9 +93,6 @@
       <Filter>win32</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\AppDelegate.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="Chinese.hpp">
@@ -102,14 +123,41 @@
       <Filter>src\Helper</Filter>
     </ClInclude>
     <ClInclude Include="Property.hpp" />
-    <ClInclude Include="LevelOne.h">
-      <Filter>src\Scene\GameScene</Filter>
+    <ClInclude Include="..\Classes\Bullet.h">
+      <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="MonsterBase.hpp">
-      <Filter>src\Monster</Filter>
+    <ClInclude Include="..\Classes\Carrot.h">
+      <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="Boss01.hpp">
-      <Filter>src\Monster</Filter>
+    <ClInclude Include="..\Classes\EntityLayer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level1Scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Macro.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Monster.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MonsterBase.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Obstacle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tower.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerProperty.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiLayer.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

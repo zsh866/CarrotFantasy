@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Bottle-11.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{69,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{69,32}</string>
+                <key>textureRect</key>
+                <string>{{99,157},{69,32}}</string>
+                <key>textureRotated</key>
+                <true/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>69 32 0 32 0 0 69 0</string>
+                <key>verticesUV</key>
+                <string>99 226 99 157 131 157 131 226</string>
+            </dict>
+            <key>Bottle-16.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{60,60}</string>
+                <key>spriteSourceSize</key>
+                <string>{60,60}</string>
+                <key>textureRect</key>
+                <string>{{81,68},{60,60}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 1 2 4 0 1 4</string>
+                <key>vertices</key>
+                <string>60 60 31 60 0 40 0 0 60 0</string>
+                <key>verticesUV</key>
+                <string>141 128 112 128 81 108 81 68 141 68</string>
+            </dict>
+            <key>Bottle-29.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{25,51}</string>
+                <key>spriteSourceSize</key>
+                <string>{25,51}</string>
+                <key>textureRect</key>
+                <string>{{81,130},{25,51}}</string>
+                <key>textureRotated</key>
+                <true/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>25 51 0 51 0 0 25 0</string>
+                <key>verticesUV</key>
+                <string>81 155 81 130 132 130 132 155</string>
+            </dict>
+            <key>Bottle-6.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{48,72}</string>
+                <key>spriteSourceSize</key>
+                <string>{48,72}</string>
+                <key>textureRect</key>
+                <string>{{1,157},{48,72}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>48 72 0 72 0 0 48 0</string>
+                <key>verticesUV</key>
+                <string>49 229 1 229 1 157 49 157</string>
+            </dict>
+            <key>Bottle_ableBuy.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{78,76}</string>
+                <key>spriteSourceSize</key>
+                <string>{78,76}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{78,76}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>78 76 0 76 0 0 78 0</string>
+                <key>verticesUV</key>
+                <string>79 77 1 77 1 1 79 1</string>
+            </dict>
+            <key>Bottle_bullet_level1_1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{50,26}</string>
+                <key>spriteSourceSize</key>
+                <string>{50,26}</string>
+                <key>textureRect</key>
+                <string>{{109,228},{50,26}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 4 5 2 3 4 1 2 4 0 1 5</string>
+                <key>vertices</key>
+                <string>50 26 28 26 9 24 0 12 0 0 50 0</string>
+                <key>verticesUV</key>
+                <string>159 254 137 254 118 252 109 240 109 228 159 228</string>
+            </dict>
+            <key>Bottle_bullet_level1_2.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{40,26}</string>
+                <key>spriteSourceSize</key>
+                <string>{40,26}</string>
+                <key>textureRect</key>
+                <string>{{227,1},{40,26}}</string>
+                <key>textureRotated</key>
+                <true/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>40 26 0 26 0 0 40 0</string>
+                <key>verticesUV</key>
+                <string>227 41 227 1 253 1 253 41</string>
+            </dict>
+            <key>Bottle_bullet_level1_3.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{58,28}</string>
+                <key>spriteSourceSize</key>
+                <string>{58,28}</string>
+                <key>textureRect</key>
+                <string>{{133,168},{58,28}}</string>
+                <key>textureRotated</key>
+                <true/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>58 28 0 28 0 0 58 0</string>
+                <key>verticesUV</key>
+                <string>133 226 133 168 161 168 161 226</string>
+            </dict>
+            <key>Bottle_bullet_level1_4.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{55,28}</string>
+                <key>spriteSourceSize</key>
+                <string>{55,28}</string>
+                <key>textureRect</key>
+                <string>{{203,168},{55,28}}</string>
+                <key>textureRotated</key>
+                <true/>
+                <key>triangles</key>
+                <string>1 3 4 1 2 3 0 1 4</string>
+                <key>vertices</key>
+                <string>55 28 10 28 0 14 0 0 55 0</string>
+                <key>verticesUV</key>
+                <string>203 223 203 178 217 168 231 168 231 223</string>
+            </dict>
+            <key>Bottle_bullet_level1_5.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{28,29}</string>
+                <key>spriteSourceSize</key>
+                <string>{28,29}</string>
+                <key>textureRect</key>
+                <string>{{225,225},{28,29}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 0 1 2 0 2 4</string>
+                <key>vertices</key>
+                <string>28 3 28 29 0 29 0 0 25 0</string>
+                <key>verticesUV</key>
+                <string>253 228 253 254 225 254 225 225 250 225</string>
+            </dict>
+            <key>Bottle_bullet_level2_1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{55,28}</string>
+                <key>spriteSourceSize</key>
+                <string>{55,28}</string>
+                <key>textureRect</key>
+                <string>{{208,111},{55,28}}</string>
+                <key>textureRotated</key>
+                <true/>
+                <key>triangles</key>
+                <string>1 3 4 1 2 3 0 1 4</string>
+                <key>vertices</key>
+                <string>55 25 52 28 0 28 0 0 55 0</string>
+                <key>verticesUV</key>
+                <string>211 166 208 163 208 111 236 111 236 166</string>
+            </dict>
+            <key>Bottle_bullet_level2_2.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{59,38}</string>
+                <key>spriteSourceSize</key>
+                <string>{59,38}</string>
+                <key>textureRect</key>
+                <string>{{163,168},{59,38}}</string>
+                <key>textureRotated</key>
+                <true/>
+                <key>triangles</key>
+                <string>0 4 5 1 4 0 1 2 3 1 3 4</string>
+                <key>vertices</key>
+                <string>59 38 0 38 0 13 15 2 31 0 59 0</string>
+                <key>verticesUV</key>
+                <string>163 227 163 168 188 168 199 183 201 199 201 227</string>
+            </dict>
+            <key>Bottle_bullet_level2_3.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{62,38}</string>
+                <key>spriteSourceSize</key>
+                <string>{62,38}</string>
+                <key>textureRect</key>
+                <string>{{143,128},{62,38}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 3 4 1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>62 38 0 38 0 3 35 0 62 0</string>
+                <key>verticesUV</key>
+                <string>205 166 143 166 143 131 178 128 205 128</string>
+            </dict>
+            <key>Bottle_bullet_level2_4.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{63,38}</string>
+                <key>spriteSourceSize</key>
+                <string>{63,38}</string>
+                <key>textureRect</key>
+                <string>{{143,88},{63,38}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 4 5 2 3 4 1 2 4 0 1 5</string>
+                <key>vertices</key>
+                <string>63 38 24 38 9 32 0 21 0 0 63 0</string>
+                <key>verticesUV</key>
+                <string>206 126 167 126 152 120 143 109 143 88 206 88</string>
+            </dict>
+            <key>Bottle_bullet_level2_5.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{67,65}</string>
+                <key>spriteSourceSize</key>
+                <string>{67,65}</string>
+                <key>textureRect</key>
+                <string>{{81,1},{67,65}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>67 65 0 65 0 0 67 0</string>
+                <key>verticesUV</key>
+                <string>148 66 81 66 81 1 148 1</string>
+            </dict>
+            <key>Bottle_level1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{56,25}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,25}</string>
+                <key>textureRect</key>
+                <string>{{51,229},{56,25}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>56 25 0 25 0 0 56 0</string>
+                <key>verticesUV</key>
+                <string>107 254 51 254 51 229 107 229</string>
+            </dict>
+            <key>Bottle_level1_boom.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{62,24}</string>
+                <key>spriteSourceSize</key>
+                <string>{62,24}</string>
+                <key>textureRect</key>
+                <string>{{161,229},{62,24}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>62 24 0 24 0 0 62 0</string>
+                <key>verticesUV</key>
+                <string>223 253 161 253 161 229 223 229</string>
+            </dict>
+            <key>Bottle_level2.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{63,35}</string>
+                <key>spriteSourceSize</key>
+                <string>{63,35}</string>
+                <key>textureRect</key>
+                <string>{{219,46},{63,35}}</string>
+                <key>textureRotated</key>
+                <true/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>63 35 0 35 0 0 63 0</string>
+                <key>verticesUV</key>
+                <string>219 109 219 46 254 46 254 109</string>
+            </dict>
+            <key>Bottle_level2_boom.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{67,40}</string>
+                <key>spriteSourceSize</key>
+                <string>{67,40}</string>
+                <key>textureRect</key>
+                <string>{{150,46},{67,40}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 4 5 1 3 4 1 2 3 0 1 5</string>
+                <key>vertices</key>
+                <string>67 40 12 40 3 38 0 30 0 0 67 0</string>
+                <key>verticesUV</key>
+                <string>217 86 162 86 153 84 150 76 150 46 217 46</string>
+            </dict>
+            <key>Bottle_level3.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{46,70}</string>
+                <key>spriteSourceSize</key>
+                <string>{46,70}</string>
+                <key>textureRect</key>
+                <string>{{51,157},{46,70}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 4 5 2 3 4 0 2 5 0 1 2</string>
+                <key>vertices</key>
+                <string>46 70 0 70 0 18 2 4 13 0 46 0</string>
+                <key>verticesUV</key>
+                <string>97 227 51 227 51 175 53 161 64 157 97 157</string>
+            </dict>
+            <key>Bottle_level3_boom.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{75,43}</string>
+                <key>spriteSourceSize</key>
+                <string>{75,43}</string>
+                <key>textureRect</key>
+                <string>{{150,1},{75,43}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 5 6 2 5 1 2 3 4 2 4 5 0 1 6</string>
+                <key>vertices</key>
+                <string>75 42 51 43 0 43 0 7 9 1 25 0 75 0</string>
+                <key>verticesUV</key>
+                <string>225 43 201 44 150 44 150 8 159 2 175 1 225 1</string>
+            </dict>
+            <key>Bottle_unableBuy.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{78,76}</string>
+                <key>spriteSourceSize</key>
+                <string>{78,76}</string>
+                <key>textureRect</key>
+                <string>{{1,79},{78,76}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>78 76 0 76 0 0 78 0</string>
+                <key>verticesUV</key>
+                <string>79 155 1 155 1 79 79 79</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>Tower_Bottle.png</string>
+            <key>size</key>
+            <string>{255,255}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:79f3b5b9bbd4e8d11b0976d768ebbbcd:3e136910f9622307e93d015c960af1af:98c49b1a3de2de1c85cbd9e318ebb2f6$</string>
+            <key>textureFileName</key>
+            <string>Tower_Bottle.png</string>
+        </dict>
+    </dict>
+</plist>

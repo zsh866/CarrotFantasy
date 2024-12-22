@@ -3,7 +3,7 @@
 #include "cocos2d.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
-#include"LevelOne.h"
+#include"Level1Scene.h"
 
 
 class MapSelectUI : public cocos2d::Scene {
