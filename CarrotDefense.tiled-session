@@ -1,0 +1,128 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Resources/Scene/level1/level1.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "Map"
+    ],
+    "file.lastUsedOpenFilter": "全部文件 (*)",
+    "fileStates": {
+        "C:/Users/dry33/Documents/Cocos/CocosProjects/CarrotDefenseMap/Resources/level1.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "C:/Users/dry33/Documents/Cocos/CocosProjects/CarrotDefenseMap/cocosstudio/MapScene/level1.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 502,
+                "y": 318
+            }
+        },
+        "C:/Users/dry33/Documents/Cocos/CocosProjects/CarrotDefenseMap/cocosstudio/MapScene/level1.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/dry33/Downloads/保卫萝卜-官方中文版_1.1.0_APKPure/assets/Themes/Theme1/BG1/BGPath.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 257.5757575757575,
+                "y": 227.27272727272725
+            }
+        },
+        "C:/Users/dry33/Downloads/保卫萝卜-官方中文版_1.1.0_APKPure/assets/Themes/Theme6/BG2/BGPath.tmx": {
+            "scale": 0.15437499999999998,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 479.35222672064765,
+                "y": -592.7125506072875
+            }
+        },
+        "C:/Users/dry33/Downloads/保卫萝卜-官方中文版_1.1.0_APKPure/assets/Themes/Theme6/BG2/BGPath.tmx#2": {
+            "scaleInDock": 1
+        },
+        "Map/32x32.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Map/map1.tmx": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 755,
+                "y": 411
+            }
+        },
+        "Resources/Scene/level1.tmx": {
+            "scale": 0.866875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 479.884643114636,
+                "y": 319.5385724585436
+            }
+        },
+        "Resources/Scene/level1/level1.tmx": {
+            "scale": 0.866875,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 479.884643114636,
+                "y": 204.18168709444848
+            }
+        },
+        "Resources/Scene/level1/level1.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "Resources/Scene/level2/未命名.tmx": {
+            "scale": 0.866875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 479.884643114636,
+                "y": 319.5385724585436
+            }
+        },
+        "Resources/res/MapScene/level1.tmx": {
+            "scale": 0.866875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 479.884643114636,
+                "y": 320.1153568853641
+            }
+        },
+        "Resources/res/MapScene/level1.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "E:/cocos-game/CarrotDefense/Resources/Scene/level1",
+    "map.height": 8,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 80,
+    "map.tileWidth": 80,
+    "map.width": 12,
+    "openFiles": [
+        "Resources/Scene/level1/level1.tmx",
+        "Resources/Scene/level1/level1.tsx"
+    ],
+    "project": "CarrotDefense.tiled-project",
+    "recentFiles": [
+        "Resources/Scene/level1.tmx",
+        "Resources/Scene/level1/level1.tsx",
+        "Resources/Scene/level1/level1.tmx",
+        "C:/Users/dry33/Documents/Cocos/CocosProjects/CarrotDefenseMap/cocosstudio/MapScene/level1.tmx",
+        "C:/Users/dry33/Documents/Cocos/CocosProjects/CarrotDefenseMap/Resources/level1.tsx",
+        "Resources/res/MapScene/level1.tmx",
+        "C:/Users/dry33/Downloads/保卫萝卜-官方中文版_1.1.0_APKPure/assets/Themes/Theme6/BG2/BGPath.tmx",
+        "C:/Users/dry33/Downloads/保卫萝卜-官方中文版_1.1.0_APKPure/assets/Themes/Theme1/BG1/BGPath.tmx",
+        "Map/map1.tmx",
+        "Map/32x32.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 80,
+        "width": 80
+    },
+    "tileset.type": 0
+}

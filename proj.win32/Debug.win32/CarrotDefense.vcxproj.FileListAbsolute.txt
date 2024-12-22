@@ -1,0 +1,7 @@
+E:\cocos-game\CarrotDefense\proj.win32\Debug.win32\CarrotDe.0F4C9956.Up2Date
+E:\cocos-game\CarrotDefense\proj.win32\Debug.win32\CarrotDefense.exe
+E:\cocos-game\CarrotDefense\proj.win32\Debug.win32\sqlite3.dll
+D:\carrotfantasy\carrotfantasy\proj.win32\Debug.win32\CarrotDefense.exe
+C:\Users\11945\Desktop\carrotfantasy\carrotfantasy\proj.win32\Debug.win32\CarrotDefense.exe
+C:\Users\11945\Desktop\carrotfantasy\carrotfantasy\proj.win32\Debug.win32\CarrotDe.0F4C9956.Up2Date
+C:\Users\11945\Desktop\carrotfantasy\carrotfantasy\proj.win32\Debug.win32\sqlite3.dll

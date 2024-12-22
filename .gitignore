@@ -1,0 +1,51 @@
+# 预编译头文件
+.pch
+.ipch
+*.pch
+*.ipch
+*/pch/
+*/ipch/
+.sdf
+.opensdf
+# Debug 和 Release 目录
+*/Debug/
+*/Debug.win32/
+*/Release/
+*/Release.win32/
+
+# 编译产物
+*.o
+*.obj
+*.exe
+*.so
+*.exp
+*.idb
+
+# 临时文件
+*.log
+*.tlog
+*.lastbuildstate
+*.cache
+*.tmp
+Thumbs.db
+.DS_Store
+
+# IDE配置文件
+*.suo
+*.user
+*.sln.docstates
+*.userprefs
+.idea/
+.vscode/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+*.cmake
+!CMakeLists.txt
+
+# 其他
+*.swp
+*~
